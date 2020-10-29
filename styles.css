@@ -2,7 +2,7 @@
 
 body{
   background: #D2B48C;
-  font-size: 1em;
+  font-size: 22px;
   margin:0;
   padding:0;
 }
@@ -36,8 +36,10 @@ nav{
 }
 
 nav a{
-    margin: 10px auto;
+    margin: 20px auto;
     text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
     color: #8B4513;
     font-weight: bold;
 }
@@ -51,7 +53,7 @@ p{
 }
 
 #wrapper{
-    margin: 15px auto;
+    margin: 24px auto;
     width:90%;
 }
 
@@ -68,6 +70,12 @@ footer{
     text-align: center;
     background-color: #8B6742;
     padding:20px 0;
+}
+
+#instagram{
+  margin: 0 auto;
+  max-width: 20%;
+  padding: 35px;
 }
 footer a{
     color:#194035;
